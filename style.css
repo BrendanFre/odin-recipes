@@ -1,12 +1,37 @@
+:root{
+    --primary-green-900: #064e3b;
+    --primary-green-50: #ecfdf5;
+    --primary-green-500: #10b981;
+}
+
+
+.montserrat-strong {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 h1{
     font-size:xx-large;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: darkgreen;
-    color: aliceblue;
+    background-color: var(--primary-green-900);
+    color: var(--primary-green-50);
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 5px 0;
+    border-bottom: solid 1px var(--primary-green-500);
+}
+
+img{
+    margin: 0 auto;
+    width: 350px;
+    height: 100px;
 }
 
 h1, h2, h3, h4{
@@ -15,7 +40,18 @@ h1, h2, h3, h4{
 
 a{
     text-decoration: none;
-    color: black;
+    color: var(--primary-green-500);
+}
+
+li{
+    margin: 5px auto;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--primary-green-900);
+    margin: 0;
 }
 
 li{
